@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en ar">
+  <head>
+    <title>DISCOVER MY CITY</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatibile" content="IE-edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAg
+    AAAAAAAAAAAAAAAEAAAAAAAAADRIiIAAP//AADl/gD///8ACAkKAAcfCAAAmQAAAAD+AAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAAAAAAAAAAMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzMzN3d3Z3dzd3d3d3ZGd3N3d3d
+    3NkM3d3d3d3dAYzd3d3dxETNjMRFxERERNRMRIXERERFGRhERERERERZmERERERZmZmZmZmZmZmZmZmZmZmZmZmZ
+    mZmZmZmZmZmZmZmZmYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+    AAAAAAAAAAAAAAA"
+      rel="icon"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <script
+      src="https://kit.fontawesome.com/214b3436fc.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <nav class="navbar">
+      <ul class="nav-links">
+        <li>
+          <a href="index.html" target="_blank">HOME</a>
+        </li>
+        <li><a href="HISTORY.html" target="_blank">HISTORY</a></li>
+        <li><a href="CULTURE.html" target="_blank">CULTURE</a></li>
+        <li><a href="NUMBERS.html" target="_blank">NUMBERS</a></li>
+        <li class="active">
+          <a href="GALLERY.html" target="_self">GALLERY</a>
+        </li>
+      </ul>
+      <img src="Pictures/white-menu-icon-14.jpg" alt="" class="menu-btn" />
+      <h6>
+        <a href="https://www.casablancacity.ma/ar" target="_blank">
+          <img class="logo" src="Pictures/Wecasablanca.png" alt="wecsablanca" />
+        </a>
+      </h6>
+    </nav>
+
+    <header class="gallery-header"></header>
+
+    <div class="g-header-content" id="myHeader">
+      <h1>SOME PICTURES FROM THE WHITE CITY</h1>
+      <p>To change view click on the buttons</p>
+      <button class="btn" onclick="one()">1</button>
+      <button class="btn active" onclick="two()">2</button>
+      <button class="btn" onclick="four()">4</button>
+    </div>
+
+    <div class="row">
+      <div class="g-row">
+        <div class="g-column">
+          <img src="GALLERY IMAGES/ARCH.jpeg" style="width: 100%" />
+          <img
+            src="GALLERY IMAGES/casablanca-map-detailed-city-poster-streets-cityscape-vector-administrative-area-metropolitan-aria-view-dark-land-white-223680523.jpg"
+            style="width: 100%"
+          />
+          <img src="Pictures/cinema abc.jpg" style="width: 100%" />
+          <img src="GALLERY IMAGES/casablanca-old-medina.webp" style="width: 100%" />
+          <img src="Pictures/grand theatre casablanca.jpg" style="width: 100%" />
+
+          <img src="Pictures/Hassan-II.webp" style="width: 100%" />
+          <img
+            src="Pictures/Flag_of_Casablanca_province_(1976-1997).svg.png"
+            style="width: 100%"
+          />
+        </div>
+        <div class="g-column">
+          <img
+            src="GALLERY IMAGES/ARCHITECTURE IN CASABLANCA.avif"
+            style="width: 100%"
+          />
+          <img src="GALLERY IMAGES/CASA ANFA.jpg" style="width: 100%" />
+          <img src="Pictures/marocains-coran-marche-verte.jpg" style="width: 100%" />
+          <img src="GALLERY IMAGES/CASABLANCA.jpg" style="width: 100%" />
+          <img src="GALLERY IMAGES/CHURCH.jpg" style="width: 100%" />
+          <img src="Pictures/Sans titre-1_3.jpg" style="width: 100%" />
+          <img src="GALLERY IMAGES/TWIN CENTER.jpg" style="width: 100%" />
+        </div>
+        <div class="g-column">
+          <img
+            src="Pictures/Editing_File-Franklin_D._Roosevelt,_Winston_Churchill,_Mohammed_V_and_Hassan_II_at_the_Casablanca_Conference.jpg"
+            style="width: 100%"
+          />
+          <img src="Pictures/cinema rialto.jpg" style="width: 100%" />
+          <img src="Pictures/80-G-38559_(25601980716).jpg" style="width: 100%" />
+          <img
+            src="Pictures/Grand_Taxi_in_Centre_Ville_Casablanca.jpg"
+            style="width: 100%"
+          />
+          <img
+            src="Pictures/Casablanca-Travel-Guide-Travel-S-Helper.jpg"
+            style="width: 100%"
+          />
+          <img src="Pictures/istockphoto-1180260798-612x612.jpg" style="width: 100%" />
+          <img src="Pictures/VIRAGIST.webp" style="width: 100%" />
+        </div>
+        <div class="g-column">
+          <img src="GALLERY IMAGES/OUSSAMA's PICS 1.jpg" style="width: 100%" />
+          <img src="GALLERY IMAGES/OUSSAMA's PICS 2.jpg" style="width: 100%" />
+          <img src="Pictures/CURVA SUD CASA.webp" style="width: 100%" />
+          <img src="" style="width: 100%" />
+          <img src="Pictures/download.jpeg" style="width: 100%" />
+          <img
+            src="Pictures/old medina.jpg"
+            style="width: 100%"
+            onclick="myFunction(this);"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      <div class="foot-col1">
+        <h3>LINKS</h3>
+        <a href="index.html" target="_blank">HOME</a>
+        <a href="HISTORY.html" target="_blank">HISTORY</a>
+        <a href="CULTURE.html" target="_blank">CULTURE</a>
+        <a href="NUMBERS.html" target="_blank">NUMBERS</a>
+        <a href="GALLERY.html" target="_self">GALLERY</a>
+      </div>
+      <div class="foot-col2">
+        <img
+          src="GALLERY IMAGES/casalogo-footer.png"
+          alt="footer pic"
+          class="footer-image"
+        />
+      </div>
+      <div class="foot-col3">
+        <h3>CONTACTS</h3>
+        <div class="social-icons">
+          <a
+            class="fa-brands fa-instagram"
+            href=""
+            target="_blank"
+          ></a>
+          <a
+            class="fa-solid fa-envelopes-bulk"
+            href="mailto:@gmail.com"
+            target="_blank"
+          >
+          </a>
+          <a
+            class="fa-brands fa-linkedin-in"
+            href="https://www.linkedin.com/in/bilalezzoubairy/"
+            target="_blank"
+          ></a>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script>
+      const menuBtn = document.querySelector(".menu-btn");
+      const navlinks = document.querySelector(".nav-links");
+
+      menuBtn.addEventListener("click", () => {
+        navlinks.classList.toggle("mobile-menu");
+      });
+    </script>
+  </body>
+</html>
